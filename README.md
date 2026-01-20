@@ -50,7 +50,7 @@ df_green.to_sql('green_taxi_trips', engine, if_exists='replace', index=False, ch
 df_zones = pd.read_csv('taxi_zone_lookup.csv')
 df_zones.to_sql('taxi_zones', engine, if_exists='replace', index=False)
 
-print("Data loaded successfully!")
+print("Data loaded successfull ")
 ```
 
 ---
