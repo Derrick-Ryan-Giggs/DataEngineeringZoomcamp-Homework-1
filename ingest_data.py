@@ -3,8 +3,8 @@ from sqlalchemy import create_engine
 from time import time
 
 # Database connection parameters 
-db_user = 'root'           
-db_password = 'root'       
+db_user = 'your_user'           
+db_password = 'your_password'       
 db_host = 'localhost'
 db_port = '5432'           
 db_name = 'ny_taxi'
